@@ -6,7 +6,8 @@
   "repository": "https://github.com/LuisMatheus-dev/RocketChat",
   "author": "Luis Matheus",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "@types/express": "^4.17.11",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.6",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "uuid": "^8.3.2"
   }
 }
